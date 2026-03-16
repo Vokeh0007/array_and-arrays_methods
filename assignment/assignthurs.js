@@ -30,7 +30,7 @@ function registerStudent(id, name, course) {
 registerStudent(101, "Kevin", "JavaScript");
 
 
-// ===== Question 21 — Inventory Matcher =====
+// ===== Question 1 — Inventory Matcher =====
 
 function matchInventories(invA, invB) {
   const uniqueItems = new Set([...invA, ...invB]);
@@ -46,7 +46,7 @@ function matchInventories(invA, invB) {
 }
 
 
-// ===== Question 22 — Score Aggregator =====
+// ===== Question 2 — Score Aggregator =====
 
 function aggregateScores(scoreArray) {
   const result = {};
@@ -60,7 +60,7 @@ function aggregateScores(scoreArray) {
 }
 
 
-// ===== Question 23 — Username Sanitizer =====
+// ===== Question 3 — Username Sanitizer =====
 
 function sanitizeUsernames(users) {
   const names = new Set();
@@ -75,7 +75,7 @@ function sanitizeUsernames(users) {
 }
 
 
-// ===== Question 24 — Tag Filter =====
+// ===== Question 4 — Tag Filter =====
 
 function addDefaultTags(posts, newTag) {
   posts.forEach(post => {
@@ -90,7 +90,7 @@ function addDefaultTags(posts, newTag) {
 }
 
 
-// ===== Question 25 — Config Merger =====
+// ===== Question 5 — Config Merger =====
 
 function buildConfig(userConfig) {
   const defaults = { theme: "light", retries: 3 };
@@ -109,7 +109,7 @@ function buildConfig(userConfig) {
 }
 
 
-// ===== Question 26 — Event Manager (Closure) =====
+// ===== Question 6 — Event Manager (Closure) =====
 
 function createEventManager() {
   const events = [];
@@ -128,7 +128,7 @@ function createEventManager() {
 }
 
 
-// ===== Question 27 — Array Intersection =====
+// ===== Question 7 — Array Intersection =====
 
 function intersectArrays(arr1, arr2) {
   const set1 = new Set(arr1);
@@ -137,7 +137,7 @@ function intersectArrays(arr1, arr2) {
 }
 
 
-// ===== Question 28 — Cart Formatter =====
+// ===== Question 8 — Cart Formatter =====
 
 function formatCart(cartArray) {
   const prices = new Set();
@@ -160,7 +160,7 @@ function formatCart(cartArray) {
 }
 
 
-// ===== Question 29 — Value Swapper =====
+// ===== Question 9 — Value Swapper =====
 
 function swapCoordinates(pointObj) {
   const { x, y } = pointObj;
@@ -171,7 +171,7 @@ function swapCoordinates(pointObj) {
 }
 
 
-// ===== Question 30 — Role Manager =====
+// ===== Question 10 — Role Manager =====
 
 function updateRoles(userObj, rolesArray) {
   rolesArray.forEach(role => userObj.roles.add(role));
